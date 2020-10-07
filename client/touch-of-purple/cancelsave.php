@@ -1,0 +1,25 @@
+<?php
+session_start();
+if(!isset($_SESSION['usrnm']))
+{
+	header("location:login.php");
+}
+else
+{
+?>
+<?php
+include("con1.php");
+$id=$_POST["id"];
+$Name=$_POST["Name"];
+$Date=$_POST["Date"];
+$Email=$_POST["Email"];
+$Contact=$_POST["Contact"];
+$Ticketno=$_POST["Ticketno"];
+$Referenceno=$_POST["Referenceno"];
+$query="INSERT into `bus`.`cancel`(`id`,`Name`,`Date`,`Email`,`Contact`,`Ticketno`,`Referenceno`)VALUES('$id','$Name','$Date','$Email','$Contact','$Ticketno','$Referenceno')";
+mysql_query($query);
+header("location:viewcancel.php");
+?>
+<?php
+}
+?>
