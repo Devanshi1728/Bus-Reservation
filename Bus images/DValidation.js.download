@@ -1,0 +1,36 @@
+﻿function DateCompare() {
+    var date1Str, date2Str, rbtbtnchk;
+    rbtbtnchk = document.getElementById('ctl00_content_rbRoundTrip').checked;
+    if (rbtbtnchk) {
+        date1Str = document.getElementById('ctl00_content_txtFromDate').value;
+        date2Str = document.getElementById('ctl00_content_txtToDate').value;
+        var dt1 = date1Str.substring(0, 2);
+        var mon1 = date1Str.substring(3, 5);
+        var yr1 = date1Str.substring(6, 10);
+
+        var dt2 = date2Str.substring(0, 2);
+        var mon2 = date2Str.substring(3, 5);
+        var yr2 = date2Str.substring(6, 10);
+
+        temp1 = mon1 + "/" + dt1 + "/" + yr1;
+        temp2 = mon2 + "/" + dt2 + "/" + yr2;
+
+        var cfd = Date.parse(temp1);
+        var ctd = Date.parse(temp2);
+
+        var date1 = new Date(cfd);
+        var date2 = new Date(ctd);
+
+        if (date1 > date2) {
+            alert("Journey start date should be less than end date");
+            return false;
+        }
+        else {
+            document.getElementById('ctl00_content_btnCheckAvailability').click();
+            return false;
+        }
+    }
+    document.getElementById('ctl00_content_btnCheckAvailability').click();
+    return false;
+
+}

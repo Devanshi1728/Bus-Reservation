@@ -1,0 +1,703 @@
+﻿/*New*/
+.bgcontent_inner {
+    padding-bottom: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #fff;
+    float: left;
+    width: 100%;
+    box-shadow: 0px 1px 7px #9B9B9B;
+}
+
+.pagecap {
+    padding: 0 15px;
+}
+
+    .pagecap h2 {
+        font-size: 16px !important;
+        width: 100%;
+        padding-left: 0px;
+        /*background: url(../images/site/title-bt.png) repeat-x bottom left;*/
+        line-height: 42px;
+        font-weight: 600;
+        /*float: left;*/
+    }
+        /*.pagecap h2:after {
+  border-bottom: 1px solid #898b8e;
+  content: '';
+  position: relative;
+  float: left;
+  width: 90%;
+  margin: 0 0 0 54px;
+}*/
+        .pagecap h2 span {
+            position: relative;
+            top: 3px;
+            color: #315379;
+        }
+
+    .pagecap p {
+        text-align: justify;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+.branch {
+    text-align: left;
+    color: #10385A;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-indent: 25px;
+}
+
+.p {
+    text-align: left;
+    font-size: 14px !important;
+    color: #000;
+    text-align: justify;
+}
+
+.sub_branch h2 {
+    text-align: left !important;
+    text-indent: 25px;
+}
+
+.bgcontent_inner a, .bgcontent_inner a:active, .bgcontent_inner a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+    .bgcontent_inner a:hover {
+        text-decoration: underline;
+        color: #0E86FC;
+    }
+
+.cldr-inp {
+    font: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    text-indent: 5px;
+}
+
+.frm-inp-jump {
+    border: solid 1px #cccccc;
+    /*padding:3px;*/
+    font-family: Verdana, Tahoma, Arial;
+    margin-bottom: 0px;
+}
+
+.search-btn {
+    background-color: #16385E;
+    padding: 0px;
+    border: solid 0px #F9F9F9;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline;
+    margin-right: 5px;
+    width: 80px;
+}
+
+.frm-inp-jump-sml {
+    border: solid 1px #399AD6;
+    /*padding:3px;*/
+    width: 72px;
+}
+
+.cldr-inp-sml {
+    border: solid 0px #F2F2F2;
+    background-color: Transparent;
+    color: #000000;
+    padding: 3px;
+}
+/*End*/
+
+/*Contact Information start*/
+.contactmain {
+    float: left;
+    width: 860px;
+    margin: 20px 0px 0px 73px;
+    padding: 0px;
+}
+
+.contactmain_top {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contactmain_top_left {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contactmain_top_mid {
+    float: left;
+    height: 38px;
+    width: 825px;
+    margin: 0px;
+    padding: 0px;
+    background: url(../images/site/box_top_mid.png) repeat-x;
+}
+
+.contactmain_top_right {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact_mid {
+    float: left;
+    width: 940px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contactmain_mid_mn {
+    margin: 0px auto;
+    width: 900px;
+    line-height: 20px;
+}
+
+    .contactmain_mid_mn p {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+.main_branch {
+    float: left;
+    margin: 0px;
+    width: 300px;
+    padding: 0px;
+}
+
+.sub_branch_city {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.sub_branch {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+}
+
+.contact_bot {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+/*Contact Information start*/
+
+/* Available Routes*/
+.bus_detail {
+    float: left;
+    margin-top: 2px;
+    width: 100%;
+    background: Whitesmoke;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.bus_detail_icon {
+    float: left;
+    padding: 15px;
+}
+
+.bus_detail_legends {
+    float: left;
+    margin: 20px 0px 0px 5px;
+    padding: 0px;
+    clear: both;
+}
+
+    .bus_detail_legends h2 {
+        float: left !important;
+        width: 96px !important;
+        font-size: 18px;
+        line-height: 16px;
+    }
+
+.bus_detail_legends_ac_icon {
+    float: left;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.Onward-Trips {
+    text-align: center;
+    width:100%;
+   font:bold;
+   font-size:18PX;
+}
+
+.bus_detail_legends span {
+    float: left;
+    margin: 2px 0px 0px 3px;
+    font-size: 13px;
+    color: #000000;
+}
+
+.bus_detail_legends_ac_nonac_icon {
+    float: left;
+    margin-left: 4px;
+    padding: 0px;
+}
+
+.bus_detail_legends_volvo_icon {
+    float: left;
+    margin-left: 4px;
+    padding: 0px;
+}
+
+.bus_detail_legends_seater_icon {
+    float: left;
+    margin-left: 4px;
+    padding: 0px;
+}
+
+.bus_detail_legends_sleeper_icon {
+    float: left;
+    margin-left: 4px;
+    padding: 0px;
+}
+
+.bus_detail_legends_seater_sleeper_icon {
+    float: left;
+    margin-left: 4px;
+    padding: 0px;
+}
+
+.bus_detail_legends_amenities_icon {
+    float: left;
+    margin-left: 4px;
+    padding: 0px;
+}
+
+.availroutes {
+    float: right;
+    width: 70%;
+}
+
+.avail-left {
+    width: 30%;
+    float: right;
+}
+
+.routedetail {
+    float: left;
+    width: 95%;
+    padding-top: 15px;
+    font-size:13px;
+    
+    
+}
+
+.buscap {
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+    font-family: Tahoma, Calibri;
+    font-size: 13px;
+}
+
+/*filltr div*/
+.fiiter-div {
+    
+    float: left;
+    width: 241px;
+    margin: 15px;
+    background: #215F95 ;
+    color: #666666;
+    border-radius:3px 4px;
+}
+.fiiter-div h2{text-align:center;}
+.fiiter-bg
+{
+    margin:5px;
+    background:#CEDFEF;
+      border-radius:23px;
+}
+/*search box*/
+.right_search_bg-avail
+{
+    float: left;
+    width: 241px;
+    border: 1px solid #E4E4E4;
+    color: #666666;
+    background:#215F95;
+    border: 1px solid #E4E4E4;
+    margin:15px;
+     border-radius:3px 4px;
+    
+}
+.right_search_bg-avail h2{text-align:center;}
+.search-bg
+{
+    margin:5px;
+    background:#CEDFEF;
+      border-radius:23px;
+
+}
+/*Available Routes*/
+/*Select Seat*/
+
+.tooltips {
+    width: 45px;
+    height: 35px;
+    /*background-color:#F3FDFF;*/
+    /*background-color:#A5E8F4;*/
+    background-color: #FFFFFF;
+    color: White;
+    /*border:solid 0px #A5E8F4;*/
+    border: solid 0px #FFFFFF;
+}
+
+    .tooltips div {
+        display: none;
+    }
+
+        .tooltips div:hover table, .tooltips div:hover span {
+            display: none;
+        }
+
+    .tooltips:hover div {
+        display: block;
+        border-radius: 5px 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 8px 8px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 8px 8px rgba(0, 0, 0, 0.1);
+        font-family: Calibri, Tahoma, Geneva, sans-serif;
+        position: absolute;
+        z-index: 99;
+        margin-top: -12.9em;
+        margin-left: 23px;
+        width: 145px;
+        background-color: #ADF3FF;
+        color: #000000;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+.tableCell {
+    width: 45px;
+    height: 40px;
+    /*background-color:#0094B2;*/
+    background-color: #10345A;
+    color: White;
+    font-weight: normal;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+    font-size: 100%;
+    /*text-shadow: -2px -3px 6px #541EF5; */
+    font-weight: bold;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+}
+
+    .tableCell:hover {
+        background-color: #82BDF8;
+        color: #000000;
+        -moz-transform: scale(1.1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -webkit-transform: scale(1.1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -o-transform: scale(1.1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -ms-transform: scale(1.1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        transform: scale(1.1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    }
+
+.tableCell_LP {
+    width: 40px;
+    height: 40px;
+    background-color: #00FFFF;
+    color: Black;
+    font-weight: normal;
+    font-size: 100%;
+    text-shadow: -3px -5px 6px #541EF5;
+}
+
+.UpperLowerCell {
+    width: 40px;
+    background-color: Transparent;
+    color: Black;
+    font-weight: bold;
+}
+
+.blankCell {
+    width: 40px;
+    height: 35px;
+    font-weight: normal;
+}
+
+.Booked {
+    width: 45px;
+    height: 30px;
+    background-color: #FF0026;
+    color: White;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+    font-size: 100%;
+    text-shadow: -3px -5px 6px #541EF5;
+}
+
+.LadiesSeat {
+    width: 45px;
+    height: 30px;
+    background-color: #3B9184;
+    color: White;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+    font-size: 100%;
+}
+.selectseat_left_div
+{
+    width:30%;
+    float:left;
+}
+.left-side-column {
+    font-family: Tahoma, Helvetica, Arial;
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 5px 0px;
+}
+#tblSeatDetail text, select {
+    /*background: url(../images/site/s-arrow.png) #fff no-repeat center;*/
+    background-position-x: 95%;
+    width: 72px;
+}
+
+.right-side-column
+{
+    float:left;
+    width:70%;
+}
+.onwardjouryInfo
+{
+    float:right;
+    width:241px;
+    height:auto;
+    font-size:13px;
+    background:#215F95;
+   border-radius:3px 4px;
+   margin:35px 10px;
+
+}
+.onwardjouryInfo-bg
+{
+    background:#CEDFEF;
+    margin:5px;
+    border-radius:23px;
+    
+
+}
+.onwardjouryInfo h2
+{
+    text-align:center;
+    font-size:13px;
+    font-family:Arial, Verdana, Tahoma;
+    color:#CD1434;
+    text-decoration:underline;
+    font:bold;
+    margin-top:10px;
+}
+
+.onwardTripDetail
+{
+    float:left;
+    width:250px;
+    height:auto;
+    font-size:13px;
+    background:#215F95;
+   border-radius:3px 4px;
+   margin:35px 10px;
+
+}
+.onwardTripDetail-bg
+{
+    background:#CEDFEF;
+    margin:5px;
+    border-radius:23px;
+    
+
+}
+.onwardTripDetail h2
+{
+    text-align:center;
+    font-size:13px;
+    font-family:Arial, Verdana, Tahoma;
+    color:#CD1434;
+    text-decoration:underline;
+    font:bold;
+    margin-top:10px;
+}
+.ChartDisplay {
+    float: left;
+    padding: 0px 1px 5px 1px;
+    width: 100%;
+}
+
+.journey-info {
+    float: right;
+    padding: 5px 0px;
+    width: 230px;
+    height: 550px;
+}
+
+.customerInfo
+{
+    float:left;
+    width:250px;
+    height:auto;
+    font-size:13px;
+    background:#215F95;
+   border-radius:3px 4px;
+   margin:35px 10px;
+
+}
+.customerInfo-bg
+{
+    background:#CEDFEF;
+    margin:5px;
+    border-radius:23px;
+    
+
+}
+.customerInfo h2
+{
+    text-align:center;
+    font-size:13px;
+    font-family:Arial, Verdana, Tahoma;
+    color:#CD1434;
+    text-decoration:underline;
+    font:bold;
+    margin-top:10px;
+}
+.customerInfo p
+{
+    font-size:13px; 
+   text-align:justify;
+}
+.right-side-column {
+    float: right;
+    padding-bottom: 5px;
+    width: 650px;
+}
+
+/*Select Seat*/
+.clear {
+    clear: both;
+    float: none;
+}
+
+.titlebg-mybook {
+    background-color: #dbdbdb;
+    height: 22px;
+    line-height: 22px;
+    color: rgb(123, 61, 38);
+    font-size: 12px;
+}
+
+.cancellation {
+    border: solid 1px #666666;
+    width: 500px;
+    margin: 0px auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+table ul {
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+table li {
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+}
+
+.twobtn {
+    float: left;
+    margin-right: 5px;
+    border: none;
+}
+
+/*--Contact us--*/
+.contactus {
+    margin: 0px;
+    padding: 0px 0 0 15px;
+}
+
+.contactbox {
+    float: left;
+    width: 250px;
+    margin: 10px 15px 10px 15px;
+}
+
+.contactus h1 {
+    margin: 0px 0px 2px 0px;
+    padding: 0px;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    height: 25px;
+    border: none;
+    line-height: normal;
+}
+
+.anemities_tooltip {
+    border: 2px solid #317082;
+    left: 18px;
+    top: 0px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    font-size: 1.0em;
+    overflow: auto;
+    z-index: 1000001;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #4479AF;
+}
+
+.aboutus {
+}
+
+.subbranch {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ajax__validatorcallout div {
+}
+
+.ChartDisplay .active {
+    background-color: #2D4275;
+}
