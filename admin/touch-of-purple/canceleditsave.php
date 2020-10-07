@@ -1,0 +1,25 @@
+<?php
+session_start();
+if(!isset($_SESSION['usrnm']))
+{
+	header("location:login.php");
+}
+else
+{
+?>
+<?php
+include("con1.php");
+$id=$_POST["id"];
+$Name=$_POST["Name"];
+$Date=$_POST["Date"];
+$Email=$_POST["Email"];
+$Contact=$_POST["Contact"];
+$Ticketno=$_POST["Ticketno"];
+$Referenceno=$_POST["Referenceno"];
+$query="UPDATE `bus`.`cancel` SET `Name` = '$Name', `Date` = '$Date', `Email` = '$Email', `Ticketno` = '$Ticketno', `Referenceno` = '$Referenceno' WHERE `cancel`.`id` = '$id'";
+mysql_query($query);
+header("location:viewcancel.php");
+?>
+<?php
+}
+?>

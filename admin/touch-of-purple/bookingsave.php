@@ -1,0 +1,30 @@
+<?php
+session_start();
+if(!isset($_SESSION['usrnm']))
+{
+	header("location:login.php");
+}
+else
+{
+
+?>
+<?php
+include("con1.php");
+$name=$_POST["name"];
+$address=$_POST["address"];
+$email=$_POST["email"];
+$contactno=$_POST["contactno"];
+$city=$_POST["city"];
+$bustype=$_POST["bustype"];
+$date=$_POST["date"];
+$ticketsno=$_POST["ticketsno"];
+$price=$_POST["price"];
+$total=$_POST["total"];
+$cardno=$_POST["cardno"];
+$query="insert into `bus`.`booking`(`name`,`address`,`email`,`contactno`,`city`,`bustype`,`date`,`ticketsno`,`price`,`total`,`cardno`) values('$name','$address','$email','$contactno','city','$bustype','$date','$ticketsno','$price','$total','$cardno')";
+mysql_query($query);
+header("location:bookingmaster.php");
+?>
+<?php
+}
+?>                                                                                                                                       
